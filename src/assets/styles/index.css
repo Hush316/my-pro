@@ -1,7 +1,2 @@
-:root {
-    --main-bg-color: pink;
-}
-
-body {
-    background-color: var(--main-bg-color);
-}
+@import './common.css';
+@import './normalize.css';

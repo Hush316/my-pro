@@ -1,7 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 
-// import { BASE_URL, TIMEOUT } from './config'
-
 const service = axios.create();
 
 service.interceptors.request.use(
