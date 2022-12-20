@@ -1,6 +1,6 @@
 <template>
     <div class="title">
-        HOME
+        HOME BIUBIU
         <div class="title-msg">msg</div>
     </div>
     <UseVueUse></UseVueUse>
