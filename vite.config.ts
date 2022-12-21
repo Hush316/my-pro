@@ -13,6 +13,8 @@ export default defineConfig({
 	plugins: [vue(), unocss()],
 	server: {
 		port: 8080,
+		host: '0.0.0.0',
+		open: true,
 		hmr: {
 			host: '127.0.0.1',
 			port: 8080,

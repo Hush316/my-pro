@@ -1,5 +1,5 @@
 <template>
-	<div>LOGIN</div>
+	<div text="placeholder-black">LOGIN</div>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue';

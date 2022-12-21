@@ -6,8 +6,10 @@ const toggleDark = useToggle(isDark);
 </script>
 
 <template>
+	<div i-mdi:account-child-circle color-blue text-size-20px></div>
+	<div i-icon-park-twotone-winking-face colo text-size-20px color-blue></div>
 	<main px-16 py-40 text-center>
-		<i i-logos-unocss text-48 inline-block />
+		<i i-logos-unocss text-48 inline-block color-blue />
 		<p mt-15 text-20 font-bold color-gray-400>UnoCSS</p>
 
 		<p text-16 mt-15 inline-flex gap-10>
