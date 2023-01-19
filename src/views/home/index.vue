@@ -1,13 +1,27 @@
 <script setup lang="ts">
 import UseVueUse from '@/components/useVueUse';
 import { useDark, useToggle } from '@vueuse/core';
+import { watch } from 'vue';
 console.log(UseVueUse);
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
+watch(
+    () => isDark.value,
+    (values) => {
+        console.log('变了', values);
+    },
+);
+
+const sum = () => {
+    let a = 0.1;
+    let b = 0.2;
+    return (a * 10 + b * 10) / 10;
+};
 </script>
 
 <template>
+    <h2>{{ sum() }}</h2>
     <div i-mdi:account-child-circle color-blue text-size-20px></div>
     <div i-icon-park-twotone-winking-face colo text-size-20px color-blue></div>
     <main px-16 py-40 text-center>

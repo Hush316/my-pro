@@ -10,6 +10,16 @@ onMounted(() => {
 </script>
 
 <template>
+    <div
+        w-20
+        h-300
+        bg-blue
+        transform
+        transition-all-500
+        hover:rotate-90
+        hover:w-300
+    ></div>
+    <div w-200 h-30 transform rotate-90>你猜我猜不猜</div>
     <div class="view_port">
         <div class="polling_message">Listening for dispatches</div>
         <div class="cylon_eye"></div>
